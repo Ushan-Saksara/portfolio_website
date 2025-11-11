@@ -101,3 +101,31 @@
     text-align: justify;
   }
 }
+
+@media screen and (min-width: 760px) {
+  #desktop-nav {
+    display: flex;
+  }
+  #hamburger-nav {
+    display: none;
+  }
+  .contact-me-container{
+  width: 400px;
+  height: 1000px;
+  margin: 1.5rem auto;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+  .contact-me-container{
+  width: 390px;
+  height: 1000px;
+  margin: 1.5rem auto;
+  }
+}
